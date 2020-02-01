@@ -1,0 +1,5 @@
+# ignore files in folder tmp
+tmp/*
+
+# but keep the folder
+!tmp/.keep

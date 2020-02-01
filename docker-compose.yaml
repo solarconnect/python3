@@ -1,0 +1,16 @@
+version: '2.1'
+services:
+  run:
+    container_name: python3_run
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+      args:
+        - ENV=development
+    volumes: 
+      - ./src:/python3/src
+      - ./setup:/python3/setup
+      - ./tmp/nltk_data:/usr/local/share/nltk_data
+      - ./tmp/site-packages:/usr/local/lib/python3.8/site-packages
+    environment:
+      - ENV=development
