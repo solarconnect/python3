@@ -4,7 +4,7 @@ python 학습 및 개발 테스트를 위한 docker 환경 구성
 ## 사용법
 * repository 가져오기
     ```
-    $ git clone https://github.com/solarconnect/python3
+    $ git clone https://github.com/solarconnect/da_dashboard
     ```
 
 * docker 이미지 빌드 후 컨테이너 생성, python 기본 라이브러리 설치 
